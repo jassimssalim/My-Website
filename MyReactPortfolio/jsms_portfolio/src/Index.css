@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*common */
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+h1,h4,p,a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* reusable button */
+.btn {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: #5208a0;
+    color: #ffff ;
+    border: 1px solid #ffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.btn-card {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+   background: rgba(248, 217,15);
+    color: #222;
+    border: 1px solid #ffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+
+.btn-light {
+    background: transparent;
+    color: #fff;
+
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+.btn-about {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgba(248, 217,15);
+    color: #222;
+    border: 1px solid #ffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-about:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1040px) {
+   .btn {
+    
+    padding: 9px 28px;
+   }
+}
