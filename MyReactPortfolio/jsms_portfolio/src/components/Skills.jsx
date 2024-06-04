@@ -1,8 +1,8 @@
 import React from 'react';
 import './Skills_Style.css';
 import HTML_img from '../assets/skills/html.png';
-import CSS_img from '../assets/skills/CSS.png';
-import JavaScript_img from '../assets/skills/JS.png';
+import CSS_img from '../assets/skills/css.png';
+import JavaScript_img from '../assets/skills/js.png';
 import Outsystems_img from '../assets/skills/Outsystems.png';
 import ReactJS_img from '../assets/skills/Reactjs.png';
 
@@ -15,6 +15,7 @@ import PostMan_img from '../assets/skills/postman.png';
 import Figma_img  from '../assets/skills/figma.png';
 import NPM_img  from '../assets/skills/npm.png';
 import BlockChain_img  from '../assets/skills/blockchain.png';
+import MG_img  from '../assets/skills/MG.png';
 
 
 
@@ -93,6 +94,14 @@ const Skills = () => {
           <div className='skills-card'>
               <img src={NPM_img} alt='image'/>
               <h2 className='skills-title'>NPM</h2>
+             
+          </div>
+
+
+          
+          <div className='skills-card'>
+              <img src={MG_img} alt='image'/>
+              <h2 className='skills-title'>MongoDB</h2>
              
           </div>
 

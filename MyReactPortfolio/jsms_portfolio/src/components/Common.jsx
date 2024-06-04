@@ -1,4 +1,4 @@
-import "./Common_style.css";
+import "./Common_Style.css";
 import React, { Component } from 'react';
 
 class Common extends Component {
